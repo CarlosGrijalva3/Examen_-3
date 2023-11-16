@@ -1,0 +1,57 @@
+:root {
+    --color-uno: #241313;
+    --color-dos: #140e0e;
+    --color-tres: rgb(164, 136, 120);
+    --color-cuatro: #d9bf8f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #140e0e;
+}
+
+.playlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song {
+    background-color:#241313;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.duration {
+    font-size: 0.8em;
+    color: #555;
+    margin-left: 10px;
+}
+h1 {
+    margin-bottom: 10px;
+    color: #d9bf8f;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+  color:  rgb(212, 196, 188);
+  
+}
+source{
+    background:#140e0e;
+}
+audio {
+    width: 23%; /* Establece el ancho al 100% del contenedor */
+    max-width: 400px; /* Puedes ajustar este valor según tus preferencias */
+    margin: 0px auto; 
+    display: block; 
+    text-align: center;
+    /*background-color: #333; /* Cambia el color a tu preferencia */
+}
+
+

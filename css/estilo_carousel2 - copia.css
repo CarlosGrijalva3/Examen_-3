@@ -1,0 +1,51 @@
+/*
+body, html {
+    height: 100%;
+    margin: 0;
+}
+*/
+.carousel2-container {
+    width: 100%;
+    overflow: hidden;
+
+    /*overflow: hidden;/*-8*/
+   /* position: relative;/*-8*/
+}
+
+.carousel2 {
+    display: flex;
+   /* animation: slide 10s infinite;*/
+    animation: slide 20s infinite;/*-8*/
+    /*width: 800%; /* Ancho total = 8 imágenes x 100% -8*/
+}
+
+.carousel2 img {
+    /*width: 100%;*/
+    width: 12.5%; /* 100% dividido por 8 imágenes -8*/
+
+    min-width: 100%;
+    /*max-width: 1920px; /* Ajusta el tamaño máximo según tus preferencias -8*/
+    max-height: 100%;
+    object-fit: cover;
+    
+}
+/*
+@keyframes slide {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-100%); }
+    40% { transform: translateX(-200%); }
+    60% { transform: translateX(-300%); }
+    80% { transform: translateX(-400%); }
+ 
+}
+*/
+@keyframes slide {
+    0%, 100% { transform: translateX(0); }
+    12.5% { transform: translateX(-100%); }
+    25% { transform: translateX(-200%); }
+    37.5% { transform: translateX(-300%); }
+    50% { transform: translateX(-400%); }
+    62.5% { transform: translateX(-500%); }
+    75% { transform: translateX(-600%); }
+    87.5% { transform: translateX(-700%); }
+}
